@@ -1,0 +1,578 @@
+{
+  "network": {
+    "nodes": {
+      "0": {
+        "node_id": 0,
+        "node_type": "input",
+        "x_pos": 0,
+        "y_pos": 0
+      },
+      "1": {
+        "node_id": 1,
+        "node_type": "input",
+        "x_pos": 0,
+        "y_pos": 1
+      },
+      "2": {
+        "node_id": 2,
+        "node_type": "input",
+        "x_pos": 0,
+        "y_pos": 2
+      },
+      "3": {
+        "node_id": 3,
+        "node_type": "input",
+        "x_pos": 0,
+        "y_pos": 3
+      },
+      "4": {
+        "node_id": 4,
+        "node_type": "input",
+        "x_pos": 0,
+        "y_pos": 4
+      },
+      "5": {
+        "node_id": 5,
+        "node_type": "input",
+        "x_pos": 0,
+        "y_pos": 5
+      },
+      "6": {
+        "node_id": 6,
+        "node_type": "input",
+        "x_pos": 0,
+        "y_pos": 6
+      },
+      "7": {
+        "node_id": 7,
+        "node_type": "input",
+        "x_pos": 0,
+        "y_pos": 7
+      },
+      "8": {
+        "node_id": 8,
+        "node_type": "input",
+        "x_pos": 0,
+        "y_pos": 8
+      },
+      "9": {
+        "node_id": 9,
+        "node_type": "input",
+        "x_pos": 0,
+        "y_pos": 9
+      },
+      "10": {
+        "node_id": 10,
+        "node_type": "output",
+        "x_pos": 2,
+        "y_pos": 0
+      },
+      "11": {
+        "node_id": 11,
+        "node_type": "output",
+        "x_pos": 2,
+        "y_pos": 1
+      },
+      "12": {
+        "node_id": 12,
+        "node_type": "output",
+        "x_pos": 2,
+        "y_pos": 2
+      },
+      "13": {
+        "node_id": 13,
+        "node_type": "output",
+        "x_pos": 2,
+        "y_pos": 3
+      },
+      "14": {
+        "node_id": 14,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 0
+      },
+      "15": {
+        "node_id": 15,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 1
+      },
+      "16": {
+        "node_id": 16,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 2
+      },
+      "17": {
+        "node_id": 17,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 3
+      },
+      "18": {
+        "node_id": 18,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 4
+      },
+      "19": {
+        "node_id": 19,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 5
+      },
+      "20": {
+        "node_id": 20,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 6
+      },
+      "21": {
+        "node_id": 21,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 7
+      },
+      "22": {
+        "node_id": 22,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 8
+      },
+      "23": {
+        "node_id": 23,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 9
+      },
+      "24": {
+        "node_id": 24,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 10
+      },
+      "25": {
+        "node_id": 25,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 11
+      },
+      "26": {
+        "node_id": 26,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 12
+      },
+      "27": {
+        "node_id": 27,
+        "node_type": "hidden",
+        "x_pos": 1,
+        "y_pos": 13
+      }
+    },
+    "connections": [
+      {
+        "input_node": 8,
+        "output_node": 10,
+        "weight": -2.384523735234811,
+        "enabled": true
+      },
+      {
+        "input_node": 8,
+        "output_node": 14,
+        "weight": 0.00039060000476709433,
+        "enabled": false
+      },
+      {
+        "input_node": 14,
+        "output_node": 10,
+        "weight": -2.0371247536468324,
+        "enabled": true
+      },
+      {
+        "input_node": 2,
+        "output_node": 10,
+        "weight": -0.7178311034593714,
+        "enabled": false
+      },
+      {
+        "input_node": 4,
+        "output_node": 10,
+        "weight": 2.329637253731889,
+        "enabled": true
+      },
+      {
+        "input_node": 8,
+        "output_node": 15,
+        "weight": 2.493960071645253,
+        "enabled": false
+      },
+      {
+        "input_node": 15,
+        "output_node": 14,
+        "weight": -0.5888575623080068,
+        "enabled": true
+      },
+      {
+        "input_node": 4,
+        "output_node": 11,
+        "weight": -2.645082565277715,
+        "enabled": false
+      },
+      {
+        "input_node": 8,
+        "output_node": 16,
+        "weight": -0.13294398927240358,
+        "enabled": true
+      },
+      {
+        "input_node": 16,
+        "output_node": 15,
+        "weight": -0.595418742252613,
+        "enabled": false
+      },
+      {
+        "input_node": 1,
+        "output_node": 13,
+        "weight": -2.5667049360203644,
+        "enabled": true
+      },
+      {
+        "input_node": 0,
+        "output_node": 14,
+        "weight": -2.22996927218713,
+        "enabled": false
+      },
+      {
+        "input_node": 9,
+        "output_node": 14,
+        "weight": 1.6722412269747728,
+        "enabled": false
+      },
+      {
+        "input_node": 9,
+        "output_node": 11,
+        "weight": 1.2110917384635589,
+        "enabled": true
+      },
+      {
+        "input_node": 9,
+        "output_node": 13,
+        "weight": -0.5357864546459115,
+        "enabled": false
+      },
+      {
+        "input_node": 5,
+        "output_node": 13,
+        "weight": 0.384757848166853,
+        "enabled": false
+      },
+      {
+        "input_node": 16,
+        "output_node": 14,
+        "weight": -1.3433711211099357,
+        "enabled": true
+      },
+      {
+        "input_node": 8,
+        "output_node": 17,
+        "weight": -1.5108847242940766,
+        "enabled": true
+      },
+      {
+        "input_node": 17,
+        "output_node": 14,
+        "weight": 0.3234466205443962,
+        "enabled": false
+      },
+      {
+        "input_node": 8,
+        "output_node": 11,
+        "weight": 0.9629962078271744,
+        "enabled": true
+      },
+      {
+        "input_node": 7,
+        "output_node": 17,
+        "weight": -1.87851057116126,
+        "enabled": true
+      },
+      {
+        "input_node": 1,
+        "output_node": 12,
+        "weight": -1.4924837656360939,
+        "enabled": false
+      },
+      {
+        "input_node": 2,
+        "output_node": 11,
+        "weight": 2.662982112068929,
+        "enabled": true
+      },
+      {
+        "input_node": 4,
+        "output_node": 14,
+        "weight": 4.508473168229708,
+        "enabled": true
+      },
+      {
+        "input_node": 15,
+        "output_node": 17,
+        "weight": -0.5551433032508921,
+        "enabled": false
+      },
+      {
+        "input_node": 15,
+        "output_node": 18,
+        "weight": -2.9576592248974727,
+        "enabled": false
+      },
+      {
+        "input_node": 18,
+        "output_node": 17,
+        "weight": 0.8748786920181842,
+        "enabled": true
+      },
+      {
+        "input_node": 0,
+        "output_node": 17,
+        "weight": -1.0082605080207823,
+        "enabled": true
+      },
+      {
+        "input_node": 16,
+        "output_node": 18,
+        "weight": -1.1868519546967755,
+        "enabled": true
+      },
+      {
+        "input_node": 7,
+        "output_node": 14,
+        "weight": -0.2553572612075761,
+        "enabled": true
+      },
+      {
+        "input_node": 8,
+        "output_node": 18,
+        "weight": -1.2751862360223842,
+        "enabled": true
+      },
+      {
+        "input_node": 14,
+        "output_node": 16,
+        "weight": -1.8379575231143903,
+        "enabled": true
+      },
+      {
+        "input_node": 15,
+        "output_node": 19,
+        "weight": 1.7204922824005777,
+        "enabled": true
+      },
+      {
+        "input_node": 19,
+        "output_node": 18,
+        "weight": -2.6555072210169133,
+        "enabled": true
+      },
+      {
+        "input_node": 2,
+        "output_node": 14,
+        "weight": 0.2493013356927693,
+        "enabled": true
+      },
+      {
+        "input_node": 8,
+        "output_node": 12,
+        "weight": 2.355717252377671,
+        "enabled": false
+      },
+      {
+        "input_node": 17,
+        "output_node": 20,
+        "weight": -0.8633103360643668,
+        "enabled": false
+      },
+      {
+        "input_node": 20,
+        "output_node": 14,
+        "weight": 0.742692273780302,
+        "enabled": false
+      },
+      {
+        "input_node": 7,
+        "output_node": 20,
+        "weight": 0.1851684323184956,
+        "enabled": true
+      },
+      {
+        "input_node": 8,
+        "output_node": 21,
+        "weight": -0.01249409008712693,
+        "enabled": true
+      },
+      {
+        "input_node": 21,
+        "output_node": 15,
+        "weight": -2.3876571793937167,
+        "enabled": true
+      },
+      {
+        "input_node": 5,
+        "output_node": 22,
+        "weight": 1.8687621794111475,
+        "enabled": true
+      },
+      {
+        "input_node": 22,
+        "output_node": 13,
+        "weight": 2.730242226956816,
+        "enabled": true
+      },
+      {
+        "input_node": 21,
+        "output_node": 18,
+        "weight": -2.2441036762000204,
+        "enabled": true
+      },
+      {
+        "input_node": 9,
+        "output_node": 17,
+        "weight": 1.1635605198764531,
+        "enabled": true
+      },
+      {
+        "input_node": 20,
+        "output_node": 23,
+        "weight": -0.06268475992983563,
+        "enabled": true
+      },
+      {
+        "input_node": 23,
+        "output_node": 14,
+        "weight": -0.8094651428916734,
+        "enabled": true
+      },
+      {
+        "input_node": 14,
+        "output_node": 15,
+        "weight": -0.7654222809059087,
+        "enabled": false
+      },
+      {
+        "input_node": 19,
+        "output_node": 17,
+        "weight": -1.3883086874582191,
+        "enabled": true
+      },
+      {
+        "input_node": 3,
+        "output_node": 21,
+        "weight": 2.3544081747884142,
+        "enabled": false
+      },
+      {
+        "input_node": 20,
+        "output_node": 18,
+        "weight": -1.6645376467260968,
+        "enabled": true
+      },
+      {
+        "input_node": 3,
+        "output_node": 24,
+        "weight": -0.5379420654237017,
+        "enabled": true
+      },
+      {
+        "input_node": 24,
+        "output_node": 21,
+        "weight": 1.0299876555721523,
+        "enabled": true
+      },
+      {
+        "input_node": 8,
+        "output_node": 25,
+        "weight": 2.438637163657357,
+        "enabled": true
+      },
+      {
+        "input_node": 25,
+        "output_node": 12,
+        "weight": 0.5772447512426588,
+        "enabled": false
+      },
+      {
+        "input_node": 5,
+        "output_node": 14,
+        "weight": -0.21575030821111202,
+        "enabled": true
+      },
+      {
+        "input_node": 25,
+        "output_node": 26,
+        "weight": 2.1721327939850523,
+        "enabled": true
+      },
+      {
+        "input_node": 26,
+        "output_node": 12,
+        "weight": -2.988632961644979,
+        "enabled": true
+      },
+      {
+        "input_node": 23,
+        "output_node": 13,
+        "weight": -0.1941092258921655,
+        "enabled": true
+      },
+      {
+        "input_node": 5,
+        "output_node": 17,
+        "weight": 2.2695647652383957,
+        "enabled": true
+      },
+      {
+        "input_node": 4,
+        "output_node": 21,
+        "weight": -0.5780238448630081,
+        "enabled": true
+      },
+      {
+        "input_node": 3,
+        "output_node": 26,
+        "weight": 0.8139634906118826,
+        "enabled": true
+      },
+      {
+        "input_node": 8,
+        "output_node": 26,
+        "weight": 0.3613422133185854,
+        "enabled": true
+      },
+      {
+        "input_node": 1,
+        "output_node": 23,
+        "weight": 0.4651122082824405,
+        "enabled": true
+      },
+      {
+        "input_node": 16,
+        "output_node": 27,
+        "weight": 1.137698988699905,
+        "enabled": true
+      },
+      {
+        "input_node": 27,
+        "output_node": 15,
+        "weight": 0.7317776505447475,
+        "enabled": true
+      }
+    ],
+    "input_size": 10,
+    "output_size": 4,
+    "next_node_id": 28,
+    "fitness": 0
+  },
+  "generation": 140,
+  "fitness": 133884
+}
